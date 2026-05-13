@@ -4,9 +4,9 @@ Este documento sirve como guía para entender la organización del frontend y la
 
 ## 1. Estructura de Carpetas Principal
 En ASP.NET MVC, el trabajo se divide en tres áreas clave:
-* Controllers/: Los "mensajeros". Reciben la URL que escribes en el navegador y deciden qué pantalla mostrar.
-* Views/: El corazón del diseño. Aquí viven los archivos .cshtml con todo tu código HTML.
-* wwwroot/: Recursos estáticos. Aquí guardas lo que no cambia (CSS e Imágenes).
+* Controllers/: Los "mensajeros". Reciben la URL que se escribe en el navegador y deciden qué pantalla mostrar.
+* Views/: El corazón del diseño. Aquí estan los archivos .cshtml con todo tu código HTML.
+* wwwroot/: Recursos estáticos. Aquí se guarda lo que no cambia (CSS e Imágenes).
 
 ## 2. Controladores (Rutas y Navegación)
 Ubicados en la carpeta Controllers/.
@@ -34,9 +34,6 @@ Ubicados en la carpeta Views/.
 * DocumentosIniciales.cshtml: Tabla de estado de entrega de los maestros.
 * DetalleDocente.cshtml: Vista individual de archivos subidos por un maestro.
 
-### Carpeta Docente/ (Módulo del Maestro)
-* Documentos.cshtml: Pantalla (sin menú lateral) para que el maestro suba sus archivos.
-* PrimerSeguimiento.cshtml: Panel con gráficas de dona animadas en CSS y barras de progreso.
 
 ## 4. Recursos Visuales
 Ubicados en la carpeta wwwroot/.
