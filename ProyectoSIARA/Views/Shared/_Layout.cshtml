@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S.I.A.R.A - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/estilos.css" />
+</head>
+<body>
+    <header class="header-azul">
+        <div class="logo-izquierdo"><img src="~/img/tecnm_logo.png" alt="TecNM"></div>
+        <div class="titulo-centro">
+            @RenderSection("TextoEncabezado", required: false)
+        </div>
+        <div class="logo-derecho"><img src="~/img/instituto_logo.png" alt="Instituto"></div>
+    </header>
+
+    @if (ViewData["OcultarMenu"] == null || (bool)ViewData["OcultarMenu"] == false)
+    {
+        <div class="contenedor-layout">
+            <nav class="menu-lateral">
+                <div class="titulo-menu">HERRAMIENTAS</div>
+                <a href="@Url.Action("Dashboard", "Admin")">Cursos y Docentes</a>
+                <a href="@Url.Action("Asignaturas", "Admin")">Asignaturas</a>
+                
+                <div class="titulo-menu" style="margin-top: 20px;">REPORTES</div>
+                <a href="#" onclick="abrirModal('modalDatosAcademicos')">Reporte de Gráficas</a>
+                <a href="@Url.Action("DocumentosIniciales", "Admin")">Documentos Iniciales</a>
+                <a href="#">Descargar Formato</a>
+                
+                <div class="titulo-menu" style="margin-top: 20px;">SISTEMA</div>
+                <a href="#" onclick="abrirModal('modalDatosAcademicos')">Configurar Datos</a>
+                <a href="#">Crear Respaldo</a>
+
+                <div class="titulo-menu" style="margin-top: 20px;">SESIÓN</div>
+                <a href="#">&#8644; Cambiar Cuenta</a>
+                <a href="#">&#128274; Cambiar Contraseña</a>
+                <a href="@Url.Action("Login", "Auth")" style="color: var(--rojo-alerta); font-weight: bold; border-top: 1px solid #ccc;">
+                    &#10006; Cerrar Sesión
+                </a>
+            </nav>
+            <main class="contenido-principal">
+                @RenderBody()
+            </main>
+        </div>
+    }
+    else
+    {
+        <main class="contenedor-central">
+            @RenderBody()
+        </main>
+    }
+
+    <div id="modalDatosAcademicos" class="fondo-modal">
+        <div class="ventana-modal">
+            <button class="btn-cerrar-modal" onclick="cerrarModal('modalDatosAcademicos')">X</button>
+            <div class="header-modal" style="text-align: left; font-size: 16px;">
+                <span style="font-size: 18px;">&#128196;</span> DATOS ACADÉMICOS
+            </div>
+            <div class="cuerpo-modal" style="text-align: left; padding: 25px 30px;">
+
+                <label style="color: var(--azul-institucional); font-weight: bold; display: block; margin-bottom: 5px; font-size: 14px;">SEMESTRE</label>
+                <select style="width: 100%; border: 2px solid #000; padding: 8px; margin-bottom: 20px; font-weight: bold; border-radius: 5px; text-align: center;">
+                    <option>ENERO- JUNIO</option>
+                    <option>AGOSTO- DICIEMBRE</option>
+                </select>
+
+                <label style="color: var(--azul-institucional); font-weight: bold; display: block; margin-bottom: 5px; font-size: 14px;">AÑO</label>
+                <select style="width: 100%; border: 2px solid #000; padding: 8px; margin-bottom: 20px; font-weight: bold; border-radius: 5px; text-align: center;">
+                    <option>2026</option>
+                    <option>2027</option>
+                </select>
+
+                <label style="color: var(--azul-institucional); font-weight: bold; display: block; margin-bottom: 5px; font-size: 14px;">DEPARTAMENTO</label>
+                <select style="width: 100%; border: 2px solid #000; padding: 8px; margin-bottom: 30px; font-weight: bold; border-radius: 5px; text-align: center;">
+                    <option>SISTEMAS Y COMPUTACION</option>
+                </select>
+
+                <div style="text-align: center;">
+                    <button class="btn" onclick="window.location.href='@Url.Action("Graficas", "Admin")'" style="width: 150px; background-color: #6a8bad; border-color: #517192;">GUARDAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="alertaSistema" class="fondo-modal" style="z-index: 1100;">
+        <div class="ventana-alerta">
+            <div id="iconoAlerta" class="icono-alerta" style="color: #28a745;">&#10004;</div>
+            <div id="textoAlerta" class="texto-alerta">GUARDADO<br>EXITOSO</div>
+            <button class="btn" style="width: 150px; background-color: #6a8bad; border-color: #517192;" onclick="cerrarAlerta()">ACEPTAR</button>
+        </div>
+    </div>
+
+    <script>
+            function abrirModal(idModal) { document.getElementById(idModal).style.display = 'flex'; }
+            function cerrarModal(idModal) { document.getElementById(idModal).style.display = 'none'; }
+            function mostrarAlertaExito(mensaje, modalACerrar = null) {
+                if(modalACerrar) cerrarModal(modalACerrar);
+                document.getElementById('iconoAlerta').innerHTML = '&#10004;';
+                document.getElementById('iconoAlerta').style.color = '#28a745';
+                document.getElementById('textoAlerta').innerHTML = mensaje;
+                document.getElementById('alertaSistema').style.display = 'flex';
+            }
+            function mostrarAlertaConfirmacion(mensaje, modalACerrar = null) {
+                if(modalACerrar) cerrarModal(modalACerrar);
+                document.getElementById('iconoAlerta').innerHTML = '&#9888;';
+                document.getElementById('iconoAlerta').style.color = '#ffc107';
+                document.getElementById('textoAlerta').innerHTML = mensaje;
+                document.getElementById('alertaSistema').style.display = 'flex';
+            }
+            function cerrarAlerta() { document.getElementById('alertaSistema').style.display = 'none'; }
+    </script>
+</body>
+</html>

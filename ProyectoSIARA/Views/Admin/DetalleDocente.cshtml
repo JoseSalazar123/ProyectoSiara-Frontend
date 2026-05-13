@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "Detalle del Docente";
+}
+
+<div class="encabezado-pantalla" style="justify-content: flex-end;">
+    <div class="botones-accion">
+        <a href="@Url.Action("DocumentosIniciales", "Admin")" class="btn btn-secundario">Regresar</a>
+        <button class="btn">SIGUIENTE</button>
+    </div>
+</div>
+
+<div class="panel-info-superior">
+    <div class="caja-info">
+        <label>DOCENTE:</label>
+        <div class="dato-caja" style="text-align: center;">MTRA PEREZ</div>
+    </div>
+    <div class="caja-info" style="flex: 2;">
+        <label>CARRERA:</label>
+        <div class="dato-caja">Ing. en sistemas computacionales</div>
+    </div>
+    <div class="caja-info" style="flex: 1.5;">
+        <label>SEMESTRE Y AÑO:</label>
+        <div class="dato-caja">ENERO - JUNIO 26</div>
+    </div>
+</div>
+
+<div class="titulo-seccion-centro">DOCUMENTOS INICIALES</div>
+
+<table class="tabla-siara" style="border: 1px solid #ccc; text-align: center;">
+    <thead>
+        <tr>
+            <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 1px solid #ccc; text-align: center;">DOCENTE</th>
+            <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 1px solid #ccc; text-align: center;">ASIGNATURA</th>
+            <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 1px solid #ccc; text-align: center;">Instrumentacion<br>Didactica</th>
+            <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 1px solid #ccc; text-align: center;">Instrumento de<br>evaluacion</th>
+            <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 1px solid #ccc; text-align: center;">Practica<br>Laboratorio</th>
+            <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 1px solid #ccc; text-align: center;">Proyecto<br>Individual</th>
+            <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 1px solid #ccc; text-align: center;">Observaciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ccc; color: var(--azul-institucional); font-weight: bold;">MTRA. PEREZ</td>
+            <td style="border: 1px solid #ccc; color: var(--azul-institucional); font-weight: bold;">Matematicas I</td>
+            <td style="border: 1px solid #ccc; font-size: 24px;">&#128215; <span style="font-size: 10px; display:block;">XLS</span></td>
+            <td style="border: 1px solid #ccc; font-size: 24px; color: red;">&#128196; <span style="font-size: 10px; display:block; color: red;">PDF</span></td>
+            <td style="border: 1px solid #ccc; font-size: 24px; color: #2a6bb2;">&#128196; <span style="font-size: 10px; display:block;">DOC</span></td>
+            <td style="border: 1px solid #ccc; font-weight: bold; color: #000;">N/A</td>
+            <td style="border: 1px solid #ccc;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ccc; color: var(--azul-institucional); font-weight: bold;">MTRA PEREZ</td>
+            <td style="border: 1px solid #ccc; color: var(--azul-institucional); font-weight: bold;">Taller de<br>Administracion</td>
+            <td style="border: 1px solid #ccc; font-size: 24px;">&#128215; <span style="font-size: 10px; display:block;">XLS</span></td>
+            <td style="border: 1px solid #ccc; font-size: 24px; color: red;">&#128196; <span style="font-size: 10px; display:block; color: red;">PDF</span></td>
+            <td style="border: 1px solid #ccc; font-size: 24px; color: #2a6bb2;">&#128196; <span style="font-size: 10px; display:block;">DOC</span></td>
+            <td style="border: 1px solid #ccc; font-size: 24px; color: #2a6bb2;">&#128196; <span style="font-size: 10px; display:block;">DOC</span></td>
+            <td style="border: 1px solid #ccc;"></td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ccc; color: var(--azul-institucional); font-weight: bold;">MTRA PEREZ</td>
+            <td style="border: 1px solid #ccc; color: var(--azul-institucional); font-weight: bold;">FISICA II</td>
+            <td style="border: 1px solid #ccc; font-size: 24px;">&#128215; <span style="font-size: 10px; display:block;">XLS</span></td>
+            <td style="border: 1px solid #ccc; font-size: 24px; color: red;">&#128196; <span style="font-size: 10px; display:block; color: red;">PDF</span></td>
+            <td style="border: 1px solid #ccc; font-size: 24px; color: #2a6bb2;">&#128196; <span style="font-size: 10px; display:block;">DOC</span></td>
+            <td style="border: 1px solid #ccc; font-size: 24px; color: #2a6bb2;">&#128196; <span style="font-size: 10px; display:block;">DOC</span></td>
+            <td style="border: 1px solid #ccc;"></td>
+        </tr>
+    </tbody>
+</table>

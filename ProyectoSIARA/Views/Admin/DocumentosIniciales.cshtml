@@ -1,0 +1,93 @@
+﻿@{
+    ViewData["Title"] = "Vista del Administrador";
+}
+
+<div class="encabezado-pantalla">
+    <h2>VISTA DEL ADMINISTRADOR</h2>
+    <div class="botones-accion">
+        <a href="@Url.Action("Dashboard", "Admin")" class="btn btn-secundario">Regresar</a>
+        <button class="btn">SIGUIENTE</button>
+    </div>
+</div>
+
+<div class="panel-info-superior">
+    <div class="caja-info">
+        <label>CARRERA:</label>
+        <div class="dato-caja">Ing. en sistemas computacionales</div>
+    </div>
+    <div class="caja-info">
+        <label>SEMESTRE Y AÑO:</label>
+        <div class="dato-caja">ENERO - JUNIO 26</div>
+    </div>
+    <div class="caja-info">
+        <label>RESPONSABLE DE SEGUIMIENTO:</label>
+        <div class="dato-caja">JOSE RAMON CAB CHAN</div>
+    </div>
+</div>
+<div class="panel-info-superior">
+    <div class="caja-info" style="max-width: 300px;">
+        <label>DEPARTAMENTO:</label>
+        <div class="dato-caja">SISTEMAS Y COMPUTACION</div>
+    </div>
+</div>
+
+<div class="titulo-seccion-centro">DOCUMENTOS INICIALES</div>
+
+<div style="display: flex; gap: 30px;">
+    <div style="flex: 2;">
+        <table class="tabla-siara" style="border: 2px solid #000;">
+            <thead>
+                <tr>
+                    <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 2px solid #000; text-align: center;">DOCENTE</th>
+                    <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 2px solid #000; text-align: center;">DOCUMENTOS<br>ENTREGADOS</th>
+                    <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 2px solid #000; text-align: center;">FECHA Y HORA<br>DE ENTREGA</th>
+                    <th style="background-color: var(--blanco); color: var(--azul-institucional); border: 2px solid #000; text-align: center;">ACCIONES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="border: 2px solid #000; color: var(--azul-institucional); text-align: center; font-weight: bold;">MTRA PEREZ</td>
+                    <td style="border: 2px solid #000; text-align: center;"><div class="icono-estado estado-verde">&#10004;</div></td>
+                    <td style="border: 2px solid #000; color: var(--azul-institucional); text-align: center; font-weight: bold;">22/04/2026, 13:00 HRS</td>
+                    <td style="border: 2px solid #000; text-align: center;">
+                        <a href="@Url.Action("DetalleDocente", "Admin")" style="color: #000; text-decoration: none; font-weight: bold; font-size: 12px;">
+                            <span style="font-size: 20px; display: block;">&#128065;</span> VISUALIZAR
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid #000; color: var(--azul-institucional); text-align: center; font-weight: bold;">MTRO LOPEZ</td>
+                    <td style="border: 2px solid #000; text-align: center;"><div class="icono-estado estado-reloj">&#128338;</div></td>
+                    <td style="border: 2px solid #000; color: var(--azul-institucional); text-align: center; font-weight: bold;">25/04/2026 17:00 HRS</td>
+                    <td style="border: 2px solid #000; text-align: center;">
+                        <a href="#" style="color: #000; text-decoration: none; font-weight: bold; font-size: 12px;">
+                            <span style="font-size: 20px; display: block;">&#128065;</span> VISUALIZAR
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 2px solid #000; color: var(--azul-institucional); text-align: center; font-weight: bold;">MTRO PACHECO</td>
+                    <td style="border: 2px solid #000; text-align: center;"></td>
+                    <td style="border: 2px solid #000; color: var(--azul-institucional); text-align: center; font-weight: bold;">30/04/2026 22:00 HRS</td>
+                    <td style="border: 2px solid #000; text-align: center;">
+                        <a href="#" style="color: #000; text-decoration: none; font-weight: bold; font-size: 12px;">
+                            <span style="font-size: 20px; display: block;">&#128065;</span> VISUALIZAR
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="flex: 1;" class="leyenda-estados">
+        <div class="leyenda-item">
+            <span class="icono-estado estado-verde">&#10004;</span> ENTREGADO EN TIEMPO Y FORMA
+        </div>
+        <div class="leyenda-item" style="margin-top: 20px;">
+            <span class="icono-estado estado-reloj">&#128338;</span> ENTREGADO EN TIEMPO
+        </div>
+        <div class="leyenda-item" style="margin-top: 40px; justify-content: center;">
+            FUERA DE TIEMPO
+        </div>
+    </div>
+</div>

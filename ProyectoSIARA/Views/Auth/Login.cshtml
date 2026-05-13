@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Inicio de Sesión";
+    ViewData["OcultarMenu"] = true;
+}
+
+<div class="tarjeta-login caja-fondo">
+    <div class="encabezado-tarjeta">
+        <img src="~/img/siara_logo.png" alt="S.I.A.R.A">
+        <div class="texto-tarjeta">Sistema Integral de Análisis<br>y Reportes Académicos</div>
+    </div>
+    
+    <h2 style="margin-bottom: 20px; color: #333;">INICIO DE SESIÓN</h2>
+
+    <form action="@Url.Action("Dashboard", "Admin")" method="GET">
+        <div class="grupo-input">
+            <span class="icono">&#128100;</span>
+            <input type="text" name="usuario" placeholder="USUARIO" required>
+        </div>
+        <div class="grupo-input">
+            <span class="icono">&#128274;</span>
+            <input type="password" name="password" placeholder="CONTRASEÑA" required>
+        </div>
+        <div class="botones">
+            <a href="@Url.Action("Recuperar", "Auth")" class="btn btn-secundario">RECUPERAR</a>
+            <button type="submit" class="btn">INGRESAR</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,52 @@
+﻿@{
+ViewData["Title"] = "Generación de Gráficas";
+}
+
+<div class="encabezado-pantalla">
+    <h2>GENERACIÓN DE GRÁFICAS</h2>
+</div>
+
+<div style="display: flex; gap: 30px;">
+    <div style="flex: 1;">
+        <div class="grupo-input">
+            <span style="font-weight:bold; margin-right: 10px; color: var(--azul-institucional);">SEMESTRE:</span>
+            <select>
+                <option>ENERO - JUNIO 2026</option>
+            </select>
+        </div>
+
+        <div class="caja-fondo" style="margin-top: 20px; padding: 20px;">
+            <h4 style="margin-bottom: 15px; color: var(--azul-institucional);">TIPO DE SEGUIMIENTO</h4>
+            <label style="display: block; margin-bottom: 10px;"><input type="radio" name="seguimiento" checked> PRIMER SEGUIMIENTO</label>
+            <label style="display: block; margin-bottom: 10px;"><input type="radio" name="seguimiento"> SEGUNDO SEGUIMIENTO</label>
+            <label style="display: block; margin-bottom: 10px;"><input type="radio" name="seguimiento"> TERCER SEGUIMIENTO</label>
+            <label style="display: block;"><input type="radio" name="seguimiento"> REPORTE CONSOLIDADO</label>
+        </div>
+
+        <div class="caja-fondo" style="margin-top: 20px; padding: 20px;">
+            <h4 style="margin-bottom: 15px; color: var(--azul-institucional);">ÁMBITO DEL REPORTE</h4>
+            <label style="display: block; margin-bottom: 10px;"><input type="radio" name="ambito" checked> REPORTE GENERAL</label>
+            <label style="display: block; margin-bottom: 10px;"><input type="radio" name="ambito"> REPORTE POR DOCENTE(S)</label>
+            <label style="display: block;"><input type="radio" name="ambito"> REPORTE POR ASIGNATURA(S)</label>
+        </div>
+    </div>
+
+    <div style="flex: 2; display: flex; flex-direction: column; gap: 20px;">
+        <div class="grupo-input">
+            <span style="font-weight:bold; margin-right: 10px; color: var(--azul-institucional);">TIPO DE GRÁFICA:</span>
+            <select>
+                <option>BARRAS</option>
+                <option>PASTEL</option>
+            </select>
+        </div>
+        
+        <div style="background: white; border: 2px dashed #ccc; flex-grow: 1; display: flex; align-items: center; justify-content: center; text-align: center; padding: 20px; color: #888; border-radius: 10px;">
+            <p>SELECCIONE LOS PARÁMETROS A LA IZQUIERDA Y POSTERIORMENTE HAGA CLIC EN "GENERAR GRÁFICA"</p>
+        </div>
+
+        <div style="display: flex; gap: 20px;">
+            <button class="btn" style="flex: 1;">GENERAR GRÁFICA</button>
+            <button class="btn btn-secundario" style="flex: 1;">DESCARGAR GRÁFICA</button>
+        </div>
+    </div>
+</div>

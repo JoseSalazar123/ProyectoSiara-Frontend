@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Restablecer Contraseña";
+    ViewData["OcultarMenu"] = true;
+}
+
+@section TextoEncabezado {
+    Sistema Integral de Análisis y Reportes Académicos
+}
+
+<div class="tarjeta-login">
+    <div class="logo-siara">
+        <img src="~/img/siara_logo.png" alt="S.I.A.R.A" style="width: 100px; margin-bottom: 20px;">
+    </div>
+    
+    <h2 style="margin-bottom: 10px; color: #333;">S.I.A.R.A</h2>
+    <h3 style="margin-bottom: 30px; color: #333;">RECUPERAR CONTRASEÑA</h3>
+
+    <form action="#" method="POST">
+        <div class="grupo-input destello-morado">
+            <span class="icono">&#128274;</span>
+            <input type="password" name="new_password" placeholder="INGRESA UNA CONTRASEÑA NUEVA" required>
+        </div>
+
+        <div class="botones-columna">
+            <button type="submit" class="btn">GUARDAR</button>
+            <a href="@Url.Action("Login", "Auth")" class="btn btn-secundario">CANCELAR</a>
+        </div>
+    </form>
+</div>

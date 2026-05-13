@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DevopsProyecto\\ProyectoSIARA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|c:\\devopsproyecto\\proyectosiara\\proyectosiara\\views\\admin\\graficas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|solutionrelative:proyectosiara\\views\\admin\\graficas.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|c:\\devopsproyecto\\proyectosiara\\proyectosiara\\views\\admin\\detalledocente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|solutionrelative:proyectosiara\\views\\admin\\detalledocente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|c:\\devopsproyecto\\proyectosiara\\proyectosiara\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|solutionrelative:proyectosiara\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|c:\\devopsproyecto\\proyectosiara\\proyectosiara\\views\\admin\\documentosiniciales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|solutionrelative:proyectosiara\\views\\admin\\documentosiniciales.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|c:\\devopsproyecto\\proyectosiara\\proyectosiara\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|solutionrelative:proyectosiara\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|c:\\devopsproyecto\\proyectosiara\\proyectosiara\\wwwroot\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|solutionrelative:proyectosiara\\wwwroot\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|c:\\devopsproyecto\\proyectosiara\\proyectosiara\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6C14DA4B-2759-DF5C-7C0D-D81B2DE62912}|ProyectoSIARA\\ProyectoSIARA.csproj|solutionrelative:proyectosiara\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Graficas.cshtml",
+              "DocumentMoniker": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Admin\\Graficas.cshtml",
+              "RelativeDocumentMoniker": "ProyectoSIARA\\Views\\Admin\\Graficas.cshtml",
+              "ToolTip": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Admin\\Graficas.cshtml",
+              "RelativeToolTip": "ProyectoSIARA\\Views\\Admin\\Graficas.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-13T02:02:58.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\README.md",
+              "RelativeDocumentMoniker": "ProyectoSIARA\\README.md",
+              "ToolTip": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\README.md",
+              "RelativeToolTip": "ProyectoSIARA\\README.md",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAADAAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-10T01:30:00.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetalleDocente.cshtml",
+              "DocumentMoniker": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Admin\\DetalleDocente.cshtml",
+              "RelativeDocumentMoniker": "ProyectoSIARA\\Views\\Admin\\DetalleDocente.cshtml",
+              "ToolTip": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Admin\\DetalleDocente.cshtml",
+              "RelativeToolTip": "ProyectoSIARA\\Views\\Admin\\DetalleDocente.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T01:21:48.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DocumentosIniciales.cshtml",
+              "DocumentMoniker": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Admin\\DocumentosIniciales.cshtml",
+              "RelativeDocumentMoniker": "ProyectoSIARA\\Views\\Admin\\DocumentosIniciales.cshtml",
+              "ToolTip": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Admin\\DocumentosIniciales.cshtml",
+              "RelativeToolTip": "ProyectoSIARA\\Views\\Admin\\DocumentosIniciales.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAAFwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T01:20:11.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProyectoSIARA\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProyectoSIARA\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T00:58:33.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "ProyectoSIARA\\Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "ProyectoSIARA\\Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T00:47:47.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "estilos.css",
+              "DocumentMoniker": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\wwwroot\\css\\estilos.css",
+              "RelativeDocumentMoniker": "ProyectoSIARA\\wwwroot\\css\\estilos.css",
+              "ToolTip": "C:\\DevopsProyecto\\ProyectoSIARA\\ProyectoSIARA\\wwwroot\\css\\estilos.css",
+              "RelativeToolTip": "ProyectoSIARA\\wwwroot\\css\\estilos.css",
+              "ViewState": "AgIAANsBAAAAAAAAAAAAAOYBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-10T00:47:21.044Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
