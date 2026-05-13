@@ -13,7 +13,7 @@ Ubicados en la carpeta Controllers/.
 
 * AuthController.cs: Maneja el acceso al sistema (Login, Recuperar, Restablecer).
 * AdminController.cs: Maneja el panel del Administrador (Dashboard, Asignaturas, Graficas, DocumentosIniciales, DetalleDocente).
-* DocenteController.cs: Maneja las vistas exclusivas del maestro (Documentos, PrimerSeguimiento).
+
 
 ## 3. Vistas y Diseño (HTML / Razor)
 Ubicados en la carpeta Views/.
